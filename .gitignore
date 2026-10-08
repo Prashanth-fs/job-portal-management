@@ -1,0 +1,48 @@
+# Build output
+target/
+build/
+*.war
+
+# Secrets - never commit these
+application-local.properties
+.env
+*.env
+
+# Maven wrapper jar (downloaded automatically by mvnw)
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Logs and temp files
+*.log
+logs/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+HELP.md
