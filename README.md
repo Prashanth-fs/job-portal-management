@@ -43,7 +43,7 @@ src/main/webapp/css             stylesheet
 
 1. Clone the project:
    ```
-   git clone https://github.com/<your-username>/job-portal-management.git
+   git clone https://github.com/Prashanth-fs/job-portal-management.git
    ```
 2. In `src/main/resources`, copy `application-local.properties.example` to `application-local.properties` and put your own database URL, username and password.
 3. Open the folder in VS Code (with the Extension Pack for Java and Spring Boot Extension Pack) and run `JobPortalManagementSpringBootApplication`, or import it into Eclipse/STS and run on Tomcat.
